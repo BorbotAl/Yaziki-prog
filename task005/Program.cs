@@ -6,7 +6,7 @@
 
 Console.WriteLine("Введите натуральное число: ");
 int number1 = Convert.ToInt32(Console.ReadLine());
-
+number1 = Math.Abs(number1);
 if (number1 > 0)
 {
     int number2 = -number1;
